@@ -1,0 +1,61 @@
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+}
+* {
+  margin: 0 auto;
+  /* padding: 0; */
+}
+.font-merriweather{
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+   height: 380px;
+   width: 776px;
+   margin-top: 60px;
+   background-position: center;
+  background-image:linear-gradient(rgba(7,2,17,0.9),rgba(255,255,255,0)), url(../images/Banner\ Image.png);
+  background-size: cover;
+  text-align: center;
+  
+}
+
+.h1 {
+  color: #FF0000;
+  font-weight: bold;
+  font-size: 75px;
+ text-align: center;
+   padding-top: 30px;
+  }
+  .banner{
+    text-align: center;
+  }
+.h5 {
+color: #FF0000;
+font-weight:400;
+font-size: 20px;
+margin-top: 40px;
+margin-bottom: 16px;
+  }
+  .h3 {
+    color: #070211;
+font-weight: bold;
+font-size: 40px;
+margin-top: 10px
+  }
+
+  .first-para{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+    padding: 40px;
+  }
+.first-head{
+  color: #FFFFFF;
+  font-size: 58px;
+  font-weight: 700;
+  text-align: center;
+    padding: 30px;
+}
+  
