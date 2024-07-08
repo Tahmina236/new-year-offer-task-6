@@ -12,12 +12,17 @@
   @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
    height: 380px;
    width: 776px;
-   margin-top: 60px;
+    /* margin-top: 90px; */
    background-position: center;
   background-image:linear-gradient(rgba(7,2,17,0.9),rgba(255,255,255,0)), url(../images/Banner\ Image.png);
   background-size: cover;
   text-align: center;
   
+}
+.merriweather{
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+  margin-top: 70px;
+  margin-left: 300px;
 }
 
 .h1 {
@@ -49,13 +54,47 @@ margin-top: 10px
     font-size: 25px;
     font-weight: 300;
     text-align: center;
-    padding: 40px;
+      padding: 30px;
+     margin-top: 40px; 
   }
 .first-head{
   color: #FFFFFF;
   font-size: 58px;
   font-weight: 700;
   text-align: center;
-    padding: 30px;
+    margin-bottom: 90px;
 }
-  
+  .best-gifts{
+    font-size: 20px;
+    font-weight: 400;
+    color: #FF0000;
+    margin-bottom:  14px;
+  }
+  .awesome-port{
+font-size: 44px;
+font-weight: 600;
+ margin-bottom: 22px;
+color: #070211;
+  }
+
+  .para {
+     margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .parent {
+     display: flex; 
+    gap: 10px;
+    align-items: center;
+  }
+  .parent-1 {
+    display: flex;
+    gap: 10px;
+    align-items:normal;
+  }
+  .child{
+    margin: 5px 0;
+  }
+  .child-1{
+    margin: 5px 0;
+  }
